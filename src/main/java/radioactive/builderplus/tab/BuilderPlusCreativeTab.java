@@ -3,6 +3,7 @@ package radioactive.builderplus.tab;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
+import radioactive.builderplus.BuilderModBlocks;
 import radioactive.builderplus.Info;
 
 public class BuilderPlusCreativeTab extends CreativeTabs
@@ -14,6 +15,6 @@ public class BuilderPlusCreativeTab extends CreativeTabs
 
 	@Override public Item getTabIconItem()
 	{
-		return Item.getItemFromBlock(Blocks.BRICK_BLOCK);
+		return Item.getItemFromBlock(BuilderModBlocks.mixed_bricks);
 	}
 }

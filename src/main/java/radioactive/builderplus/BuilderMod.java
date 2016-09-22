@@ -21,6 +21,11 @@ import radioactive.builderplus.tab.BuilderPlusCreativeTab;
 	{
 		return $m_INSTANCE;
 	}
+	
+	public BuilderPlusCreativeTab GetCreativeTab()
+	{
+		return $m_creative_tab;
+	}
 
 	@Mod.EventHandler public void PreInit(FMLPreInitializationEvent event)
 	{
@@ -34,6 +39,7 @@ import radioactive.builderplus.tab.BuilderPlusCreativeTab;
 	@Mod.EventHandler public void Init(FMLInitializationEvent event)
 	{
 		$m_proxy.Init(event);
+		BuilderModCrafting.Register();
 	}
 
 	@Mod.EventHandler public void PostInit(FMLPostInitializationEvent event)

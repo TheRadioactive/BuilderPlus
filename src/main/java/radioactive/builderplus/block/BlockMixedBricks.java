@@ -14,6 +14,6 @@ public class BlockMixedBricks extends Block
 		setUnlocalizedName(Info.BuilderBlocks.MIXED_BRICKS.getUnlocalizedname());
 		setRegistryName(Info.BuilderBlocks.MIXED_BRICKS.getRegistryname());
 		
-		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		setCreativeTab(BuilderMod.GetInstance().GetCreativeTab());
 	}
 }

@@ -38,6 +38,7 @@ public class Info
 	{
 		MIXED_BRICKS("mixed_bricks", "mixed_bricks"),
 		AGED_BRICKS("rusty_bricks", "rusty_bricks"),
+		COTSWOLD_BRICKS("cotswold_bricks", "cotswold_bricks"),
 		MISSING_TEXTURE("missing", "missing");
 
 		private String unlocalizedname, registryname;

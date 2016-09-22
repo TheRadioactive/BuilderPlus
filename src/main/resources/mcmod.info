@@ -3,7 +3,7 @@
   "modid": "builderplus",
   "name": "Builder Plus",
   "description": "A minecraft mod that adds various wanted features to the game dedicated to people who love the building aspect of the game",
-  "version": "1.0",
+  "version": "1.2",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",

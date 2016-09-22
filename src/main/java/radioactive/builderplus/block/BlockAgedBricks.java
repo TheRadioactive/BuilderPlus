@@ -14,6 +14,6 @@ public class BlockAgedBricks extends Block
 		setUnlocalizedName(Info.BuilderBlocks.AGED_BRICKS.getUnlocalizedname());
 		setRegistryName(Info.BuilderBlocks.AGED_BRICKS.getRegistryname());
 		
-		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		setCreativeTab(BuilderMod.GetInstance().GetCreativeTab());
 	}
 }
