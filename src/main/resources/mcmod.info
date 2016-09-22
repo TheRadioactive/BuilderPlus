@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
+  "modid": "builderplus",
+  "name": "Builder Plus",
+  "description": "A minecraft mod that adds various wanted features to the game dedicated to people who love the building aspect of the game",
+  "version": "1.0",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["TheRadioactive"],
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

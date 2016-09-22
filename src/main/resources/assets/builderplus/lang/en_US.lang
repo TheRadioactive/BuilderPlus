@@ -1,0 +1,11 @@
+#Builder Plus english lang file
+
+#Creative Tab
+itemGroup.tab_builderplus=Builder Plus
+
+#Items
+
+#Blocks
+tile.mixed_bricks.name=Mixed Bricks
+tile.rusty_bricks.name=Rusty Bricks
+tile.missing.name=Missing Texture Block
