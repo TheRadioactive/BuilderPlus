@@ -3,8 +3,8 @@ package radioactive.builderplus.proxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import radioactive.builderplus.BuilderModBlocks;
-import radioactive.builderplus.BuilderModItems;
+import radioactive.builderplus.init.BuilderModBlocks;
+import radioactive.builderplus.init.BuilderModItems;
 
 public class ClientProxy extends CommonProxy
 {

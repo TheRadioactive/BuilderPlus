@@ -1,11 +1,13 @@
 package radioactive.builderplus;
 
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import radioactive.builderplus.init.BuilderModBlocks;
+import radioactive.builderplus.init.BuilderModCrafting;
+import radioactive.builderplus.init.BuilderModItems;
 import radioactive.builderplus.proxy.CommonProxy;
 import radioactive.builderplus.tab.BuilderPlusCreativeTab;
 

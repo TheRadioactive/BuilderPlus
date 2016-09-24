@@ -1,10 +1,9 @@
 package radioactive.builderplus.tab;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
-import radioactive.builderplus.BuilderModBlocks;
 import radioactive.builderplus.Info;
+import radioactive.builderplus.init.BuilderModBlocks;
 
 public class BuilderPlusCreativeTab extends CreativeTabs
 {
