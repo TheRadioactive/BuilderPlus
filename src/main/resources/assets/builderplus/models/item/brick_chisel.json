@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "builderplus:items/brick_chisel"
+  }
+}

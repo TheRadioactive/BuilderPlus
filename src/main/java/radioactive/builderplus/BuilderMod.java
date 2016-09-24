@@ -1,10 +1,13 @@
 package radioactive.builderplus;
 
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.oredict.OreDictionary;
 import radioactive.builderplus.init.BuilderModBlocks;
 import radioactive.builderplus.init.BuilderModCrafting;
 import radioactive.builderplus.init.BuilderModItems;
@@ -42,6 +45,7 @@ import radioactive.builderplus.tab.BuilderPlusCreativeTab;
 	{
 		$m_proxy.Init(event);
 		BuilderModCrafting.Register();
+		OreDictionary.registerOre("ingotSteel", BuilderModItems.steel_ingot);
 	}
 
 	@Mod.EventHandler public void PostInit(FMLPostInitializationEvent event)

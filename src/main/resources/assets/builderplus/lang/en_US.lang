@@ -4,8 +4,8 @@
 itemGroup.tab_builderplus=Builder Plus
 
 #Items
-
-#No Items currently
+item.brick_chisel.name=Brick Chisel
+item.steel_ingot.name=Steel Ingot
 
 #Blocks
 tile.mixed_bricks.name=Mixed Bricks
